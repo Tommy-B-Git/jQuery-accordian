@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	/*font-family: 'Open Sans', sans-serif;*/
+	color: #666;
+	font-size: 16px;
+	background: #f9f9f9;
+	line-height: 1.6em;
+}
+
+ul, li{
+	list-style: none;
+	font-family: 'Open Sans', sans-serif
+}
+
+#container{
+	width: 60%;
+	margin: 30px auto;
+	overflow: auto;
+}
+
+#container h1{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.title{
+	height: 40px;
+	background: #6bba70;
+	color: #fff;
+	text-align: center;
+	padding-top: 13px;
+}
+
+.faq li{
+	padding: 20px
+}
+.faq li.q{
+	background-color: #ccc;
+	font-weight: bold;
+	font-size: 120%;
+	border-bottom: 1px #ddd solid;
+	cursor: pointer;
+}
+
+.faq li.a{
+	background: #ddd;
+	display: none;
+}
+
+/*.rotate {
+	-webkit-animation: cssAnimation 0.6845s  1 ease;
+	-moz-animation: cssAnimation 0.6845s  1 ease;
+	-o-animation: cssAnimation 0.6845s  1 ease;}
+
+	@-webkit-keyframes cssAnimation {
+		from {
+			-webkit-transform:  rotate(4deg) scale(1) skew(1deg) translate(10px);
+			} 
+		to {
+			-webkit-transform:  rotate(91deg) scale(1) skew(1deg) translate(0px);
+			}
+	}
+	@-moz-keyframes cssAnimation {
+		from {
+			-moz-transform:  rotate(4deg) scale(1) skew(1deg) translate(10px);
+		}
+		to {
+			-moz-transform:  rotate(91deg) scale(1) skew(1deg) translate(0px);
+			}
+		}
+	@-o-keyframes cssAnimation {
+		from { 
+		-o-transform:  rotate(4deg) scale(1) skew(1deg) translate(10px);
+			} 
+		to {
+		-o-transform:  rotate(91deg) scale(1) skew(1deg) translate(0px);
+		}
+};*/
+.rotate{
+	-moz-transform:rotate(90deg);
+	-webkit-transform:rotate(90deg);
+	transform:rotate(90deg);
+}
+
+@media(max-width: 800px){ /*when its 800 or less*/
+	#container{
+		width: 90%;
+	}
+}
+
+
+
+
+
+
+
